@@ -1,213 +1,193 @@
-<!-- First page people open/see -->
+<!--First page people see-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Basic HTML</title>
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://oneitheus.github.io">
-		<meta property="og:site_name" content="Space Dogs">
-		<meta property="og:image" itemprop="image primaryImageOfPage" content="https://oneitheus.github.io/images/thumb/thumbnail_1.png">
-		<meta name="description" content="THE SPACE DOG WEBSITE!.">
 		<meta charset="utf-8">
-		<link rel="Stylesheet" type="text/css" href="css/css.css">
+		<title>Space Dog Resort</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
+
 	<body>
-		<header>
-			<h1>SPACE DOG</h1>
-			<span style="text-align:center"><p>A website about dogs.</p></span>
-			<em>
-				<a href="https://www.youtube.com/watch?v=Q-LE-jJQLTM" target="new">Live Dog Launch</a>
-			</em>
-		</header>
-		
-		<!-- NAV -->
-		<div id="nav" class="nav">
-			<div>
-				<ul> <!-- unordered list -->
-					<a href="#home" id="link"><li>HOME</li></a>
-					<!--id attribute allows CSS to modify it -->
-					<a href="#gallery"><li>DOG GALLERY</li></a>
+		<!--NAV-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>RESERVATIONS</li></a>
 				</ul>
 			</div>
 		</div>
-		<!-- END NAV -->
-		
-		<!-- HOME -->
+		<!--END NAV-->
+
+		<!--HOME-->
 		<div id="home">
-			<div>
-				<div>
-					<span>The Dog Station</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Space Dogs Station</span>
 				</div>
-				
-				<!-- Article -->
-				<article>
-					<h2>Our Vision</h2>
-					<p>We want to develop space dogs</p>
-					<details>
-						<summary>Space Dogs</summary>
-						<p>They are magnificent beings! Dogs being able to travel to space! That's like amazing!</p>
-						<p>Space launches every <time>1:00</time>AM EST every day.</p> <!-- Time Element rarely renders in most major browsers -->
-						<p>Estimated evolution for Space Dogs: <time datetime="2028-5-14 1:00">May 14, 2028</time></p>
-					</details>
-				</Article>
-				<!-- End of Article -->
 			</div>
 		</div>
-		<!-- END HOME -->
-		
-		<!-- GALLERY -->
-		<section id="gallery">
+		<!--END HOME-->
+
+		<!--GALLERY-->
+		<div id="gallery">
 			<div class="container">
 				<h1>Gallery</h1>
-				<div class="flex-container">
-					<!-- Photo Container 1 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="./images/thumb/thumbnail_1.png" alt="a">
-							<!-- <div class="enlarge">
-								<h3 class="enlarge_prompt">Click to Enlarge</h3>
-								<p class="desc">We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
-						</div>
-					</div>
+				<div class="flex-container"> <!--FLEX BOX Code-->
 					
-					<!-- Photo Container 2 -->
+					<!--PHOTO CONTAINER 1-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_2.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_1.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 3 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 2-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_3.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_2.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 4 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 3-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_4.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_3.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 5 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 4-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_5.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_4.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 6 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 5-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_6.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_5.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 7 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 6-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_7.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_6.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 8 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 7-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_8.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_7.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
-					
-					<!-- Photo Container 9 -->
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 8-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./images/thumb/thumbnail_9.png" alt="a">
-							<!-- <div>
+							<img src="./images/thumb/thumbnail_8.png" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>We have several dog launches departing daily, book your flight with a dog.</p>
-							</div> -->
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
 						</div>
 					</div>
+					<!--END PHOTO CONTAINER-->
+
+					<!--PHOTO CONTAINER 9-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_9.png" alt="">
+							<div class="photo-overlay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO CONTAINER-->
+
 				</div>
 			</div>
-		</section>
-		<!-- END GALLERY -->
-		
-		<!-- Video Section -->
-		<section id="videos">
-			<div class="video-container">
-				<iframe width="1013" height="570" src="https://www.youtube.com/embed/iC1PLC6ljJc" title="Space Doggo 10 Hours" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			</div>
-		</Section>
-		<!-- End Video Section -->
-		
-		<!-- RSVF -->
-		<section class="rsvf">
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		</div>
+		<!--END GALLERY-->
+
+		<!--RSVF-->
+		<div id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">RESERVATIONS</h1>
+					<div class="reservation">
 						<h2>
-							Your adventure is just around the moon.
-							<br>
-							Reserve your flight today!
+							<span>Your adventure is just around the moon.</span>
+							<br/>Reserve your flight today!
 						</h2>
-						<p>Give us your contact info!!!!!</p>
-						<div>
+						<p class="rsvp-text">
+							Give Contact Info.
+						</p>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rvsp" type="text" value="First Name"><br>
-								<input class="rvsp" type="text" value="Last Name"><br>
-								<input class="rvsp" type="text" value="Email Address"><br>
-								<input class="rvsp" type="text" value="Phone #"><br>
+								<input type="text" class="rsvp" value="" placeholder="First Name">
+								<input type="text" class="rsvp" value="" placeholder="Last Name">
+								<input type="text" class="rsvp" value="" placeholder="Phone Number">
+								<input type="text" class="rsvp" value="" placeholder="Email">
+
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
-									<input type="submit" value="SUBMIT">
+								<div class="submit">
+									<input type="submit" value="SEND">
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- END RSVF -->
-		
-		<!-- FOOTER -->
-		<div>
-			www.thedogstation.space
 		</div>
-		<!-- END FOOTER -->
+		<!--/RSVF-->
+
+		<!--FOOTER-->
+		<div id="footer">
+
+		</div>
+		<!--/FOOTER-->
 	</body>
 </html>
