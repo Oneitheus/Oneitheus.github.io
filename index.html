@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width" />
         <title>Clifford T.</title>
         <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+        <script src="./js/main.js" defer></script>
     </head>
 
     <!--Body-->
@@ -53,8 +54,31 @@
         <!--About section-->
         <div class="Row" id="About">
             <!--Left column-->
+        <!--
             <div class="Column_2">
                 <img src="images/video/spacedog.gif" alt="Space Dog">
+            </div>
+        -->
+            <div id="Slideshow" class="Column_2"> 
+                <div class="Slide">
+                    <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML Trio">
+                </div>
+                <div class="Slide">
+                    <img class="Slideshow_Images" src="images/shiba.jpg" alt="A Cute">
+                </div>
+                <div class="Slide">
+                    <img class="Slideshow_Images" src="images/video/spacedog.gif" alt="Space Dog">
+                </div>
+
+                <!--Slideshow Navigation-->
+                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
             </div>
             <!--Right column-->
             <div class="Column_1">
@@ -64,6 +88,7 @@
                     <br>
                     <br>I am a student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, and soon JavaScript. 
                     <br>
+                    <hr>
                     <br>I am still a learning student, but feel free to contact me otherwise. <a href="#Contact">Contact</a> me below!
                 </p>
             </div>
